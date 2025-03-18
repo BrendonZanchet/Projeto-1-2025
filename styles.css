@@ -145,7 +145,7 @@ h2 {
     position: fixed;
     text-align: right;
     top: 2rem;
-    right:20px
+    right:20px;
     z-index 1000;
 }
 
