@@ -3,6 +3,9 @@
 
 :root {
     --laranja-claro: #FF862A;
+    --alto-contraste-fundo: #000000;
+    --alto-contraste-texto: #ffffff;
+    --alto-contraste-link: #ffd700;
 }
 
 body {
@@ -143,10 +146,9 @@ h2 {
 
 .menu-acessibilidade{
     position: fixed;
-    text-align: right;
     top: 2rem;
     right:20px;
-    z-index 1000;
+    z-index: 1000;
 }
 
 .rotacao-botao{
@@ -168,3 +170,22 @@ h2 {
 .apresenta-lista{
     display: none;
 }
+
+/* alto contraste */
+
+.alto-contraste{
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
+}
+
+.alto-contraste header,
+.alto-contraste footer,
+.alto-contraste .formulario{
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
+}
+
+.alto-contraste .nav-link{
+    color: var(--alto-contraste-link);
+}
+
