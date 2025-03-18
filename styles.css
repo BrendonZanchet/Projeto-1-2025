@@ -143,10 +143,10 @@ h2 {
 
 .menu-acessibilidade{
     position: fixed;
+    text-align: right;
     top: 2rem;
     right:20px
     z-index 1000;
-    margin-right: -100%;
 }
 
 .rotacao-botao{
