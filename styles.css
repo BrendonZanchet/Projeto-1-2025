@@ -6,6 +6,7 @@
     --alto-contraste-fundo: #000000;
     --alto-contraste-texto: #ffffff;
     --alto-contraste-link: #ffd700;
+    --texto: #000000;
 }
 
 body {
@@ -24,7 +25,7 @@ section {
 
 
 .nav-link {
-    color: #CB6D43;
+    color: var(--texto) ;
     font-weight: 600;
 }
 
@@ -178,7 +179,7 @@ h2 {
 }
 
 .alto-contraste .nav-link{
-    color: var(--alto-contraste-link);
+    color: var(--alto-contraste-texto);
 }
 
 .alto-contraste .botao-inicio,
