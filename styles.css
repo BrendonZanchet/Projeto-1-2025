@@ -6,7 +6,6 @@
     --alto-contraste-fundo: #000000;
     --alto-contraste-texto: #ffffff;
     --alto-contraste-link: #ffd700;
-    --alto-contraste-fundo: #000000
 }
 
 body {
@@ -190,5 +189,21 @@ h2 {
     color: var(--alto-contraste-link);
 }
 
-/* ALTO CONTRASTE */
+.alto-contraste .botao-inicio,
+.alto-contraste .formulario button,
+.alto-contraste .btn-primary{
+    background-color: var(--alto-contraste-link);
+    color: var(--alto-contraste-fundo);
+}
 
+.alto-contraste #tropicalia {
+    background: none;
+}
+
+.alto-contraste #galeria{
+    background-color: var(--alto-contraste-fundo);
+}
+
+.alto-contraste .fundo-galeria{
+    background: none;
+}
