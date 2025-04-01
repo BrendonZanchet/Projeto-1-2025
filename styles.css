@@ -48,6 +48,11 @@ section {
     display: none;
 }
 
+.altera-imagem:checked ~ .imagem-titulo2 {
+    display: block;
+
+}
+
 /* posicionamento para a imagem à direita */
 .img-inicio {
     position: absolute;
