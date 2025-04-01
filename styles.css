@@ -42,6 +42,12 @@ section {
     margin: 0 auto;
 }
 
+/* imagem de ińicio */
+
+.imagem-titulo2 {
+    display: none;
+}
+
 /* posicionamento para a imagem à direita */
 .img-inicio {
     position: absolute;
