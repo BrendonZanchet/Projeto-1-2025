@@ -33,6 +33,19 @@ document.addEventListener('DOMContentLoaded', function(){
      alternaContraste.addEventListener('click', function(){
          document.body.classList.toggle('alto-contraste')
      })
+
+     const botao = document.getElementById('altera-imagem');
+const imagem = document.getElementById('imagem-titulo20');
+
+// Adiciona um evento de clique no botão
+botao.addEventListener('click', function() {
+  // Altera a visibilidade da imagem
+  if (imagem.style.display === 'none' || imagem.style.display === '') {
+    imagem.style.display = 'block'; // Mostra a imagem
+  } else {
+    imagem.style.display = 'none'; // Esconde a imagem
+  }
+});
  
  
  })
