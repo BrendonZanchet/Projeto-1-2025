@@ -68,7 +68,7 @@ section {
 
 
 .botao-inicio {
-    background-color: var(--laranja-claro);
+    background-color: var(--texto);
     border-radius: 30px;
     border: none;
     width: 14em;
